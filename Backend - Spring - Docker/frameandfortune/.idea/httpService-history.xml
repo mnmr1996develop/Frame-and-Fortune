@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HttpHistory">
+    <option name="httpHistories">
+      <map>
+        <entry key="0">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="0" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="[]" />
+              <option name="time" value="2026-09-09 15:26:57" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="1">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="1" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 09 15:27:03 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Bad Request, status=400).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-09 15:27:03" />
+              <option name="uri" value="/api/v1/users/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="2" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 09 15:28:10 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Bad Request, status=400).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-09 15:28:10" />
+              <option name="uri" value="/api/v1/users/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="3" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 09 15:28:36 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Bad Request, status=400).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-09 15:28:36" />
+              <option name="uri" value="/api/v1/users/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="4" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 09 15:42:29 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-09 15:42:29" />
+              <option name="uri" value="/api/v1/users/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="5">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Steven&quot;,&#10;  &quot;lastName&quot;: &quot;Rciha&quot;,&#10;  &quot;email&quot;: &quot;mnmr1996@gmail.cim&quot;,&#10;  &quot;username&quot;: &quot;mnmqwoi&quot;,&#10;  &quot;birthDate&quot;: &quot;2026-09-09&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="5" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;userId&quot;:null,&quot;firstName&quot;:&quot;Steven&quot;,&quot;lastName&quot;:&quot;Rciha&quot;,&quot;email&quot;:&quot;mnmr1996@gmail.cim&quot;,&quot;username&quot;:&quot;mnmqwoi&quot;,&quot;birthDate&quot;:&quot;2026-09-09&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T15:45:06.4862487&quot;}" />
+              <option name="time" value="2026-09-09 15:45:06" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="6">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="6" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:null,&quot;firstName&quot;:&quot;Steven&quot;,&quot;lastName&quot;:&quot;Rciha&quot;,&quot;email&quot;:&quot;mnmr1996@gmail.cim&quot;,&quot;username&quot;:&quot;mnmqwoi&quot;,&quot;birthDate&quot;:&quot;2026-09-09&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T15:45:06.486249&quot;}" />
+              <option name="time" value="2026-09-09 15:45:33" />
+              <option name="uri" value="/api/v1/users/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="7">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="7" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 09 15:45:38 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-09 15:45:38" />
+              <option name="uri" value="/api/v1/users/2" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="8">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="8" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="User with id: 2 not found" />
+              <option name="time" value="2026-09-09 15:48:43" />
+              <option name="uri" value="/api/v1/users/2" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="9">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="9" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;message&quot;:&quot;User with id: 2 not found&quot;,&quot;time&quot;:&quot;2026-09-09T15:53:59.8191549&quot;}" />
+              <option name="time" value="2026-09-09 15:53:59" />
+              <option name="uri" value="/api/v1/users/2" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="10">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="10" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;message&quot;:&quot;User with id: 2 not found&quot;,&quot;time&quot;:&quot;2026-09-09T15:54:47.0678186&quot;}" />
+              <option name="time" value="2026-09-09 15:54:47" />
+              <option name="uri" value="/api/v1/users/2" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="11">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="11" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:null,&quot;firstName&quot;:&quot;Steven&quot;,&quot;lastName&quot;:&quot;Rciha&quot;,&quot;email&quot;:&quot;mnmr1996@gmail.cim&quot;,&quot;username&quot;:&quot;mnmqwoi&quot;,&quot;birthDate&quot;:&quot;2026-09-09&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T15:45:06.486249&quot;}" />
+              <option name="time" value="2026-09-09 15:55:26" />
+              <option name="uri" value="/api/v1/users/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="12">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="12" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:null,&quot;firstName&quot;:&quot;Steven&quot;,&quot;lastName&quot;:&quot;Rciha&quot;,&quot;email&quot;:&quot;mnmr1996@gmail.cim&quot;,&quot;username&quot;:&quot;mnmqwoi&quot;,&quot;birthDate&quot;:&quot;2026-09-09&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T15:45:06.486249&quot;,&quot;isOnline&quot;:false}" />
+              <option name="time" value="2026-09-09 15:56:37" />
+              <option name="uri" value="/api/v1/users/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="13">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Peter&quot;,&#10;  &quot;lastName&quot;: &quot;Smith&quot;,&#10;  &quot;email&quot;: &quot;mnmr19@gmail.com&quot;,&#10;  &quot;username&quot;: &quot;nbsa&quot;,&#10;  &quot;birthDate&quot;: &quot;2002-02-01&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="13" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;userId&quot;:null,&quot;firstName&quot;:&quot;Peter&quot;,&quot;lastName&quot;:&quot;Smith&quot;,&quot;email&quot;:&quot;mnmr19@gmail.com&quot;,&quot;username&quot;:&quot;nbsa&quot;,&quot;birthDate&quot;:&quot;2002-02-01&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T15:57:25.8803574&quot;,&quot;isOnline&quot;:true}" />
+              <option name="time" value="2026-09-09 15:57:25" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="14">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="14" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:null,&quot;firstName&quot;:&quot;Steven&quot;,&quot;lastName&quot;:&quot;Rciha&quot;,&quot;email&quot;:&quot;mnmr1996@gmail.cim&quot;,&quot;username&quot;:&quot;mnmqwoi&quot;,&quot;birthDate&quot;:&quot;2026-09-09&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T15:45:06.486249&quot;,&quot;isOnline&quot;:false}" />
+              <option name="time" value="2026-09-09 15:57:38" />
+              <option name="uri" value="/api/v1/users/1" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="15">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="15" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="userId" value="0" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:null,&quot;firstName&quot;:&quot;Peter&quot;,&quot;lastName&quot;:&quot;Smith&quot;,&quot;email&quot;:&quot;mnmr19@gmail.com&quot;,&quot;username&quot;:&quot;nbsa&quot;,&quot;birthDate&quot;:&quot;2002-02-01&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T15:57:25.880357&quot;,&quot;isOnline&quot;:true}" />
+              <option name="time" value="2026-09-09 15:57:42" />
+              <option name="uri" value="/api/v1/users/2" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="16">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Mike&quot;,&#10;  &quot;lastName&quot;: &quot;Rich&quot;,&#10;  &quot;email&quot;: &quot;mnmr199@gmail.com&quot;,&#10;  &quot;username&quot;: &quot;mbmwq&quot;,&#10;  &quot;birthDate&quot;: &quot;2026-09-09&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="16" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;userId&quot;:null,&quot;firstName&quot;:&quot;Mike&quot;,&quot;lastName&quot;:&quot;Rich&quot;,&quot;email&quot;:&quot;mnmr199@gmail.com&quot;,&quot;username&quot;:&quot;mbmwq&quot;,&quot;birthDate&quot;:&quot;2026-09-09&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T16:15:33.8845195&quot;,&quot;isOnline&quot;:true}" />
+              <option name="time" value="2026-09-09 16:15:34" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="17">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Mike&quot;,&#10;  &quot;lastName&quot;: &quot;Rich&quot;,&#10;  &quot;email&quot;: &quot;mnmr199@gmail.com&quot;,&#10;  &quot;username&quot;: &quot;mbmwq&quot;,&#10;  &quot;birthDate&quot;: &quot;2026-09-09&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="17" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;userId&quot;:1,&quot;firstName&quot;:&quot;Mike&quot;,&quot;lastName&quot;:&quot;Rich&quot;,&quot;email&quot;:&quot;mnmr199@gmail.com&quot;,&quot;username&quot;:&quot;mbmwq&quot;,&quot;birthDate&quot;:&quot;2026-09-09&quot;,&quot;lastSeen&quot;:&quot;2026-09-09T16:17:24.1148114&quot;,&quot;isOnline&quot;:true}" />
+              <option name="time" value="2026-09-09 16:17:24" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="18">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Mike&quot;,&#10;  &quot;lastName&quot;: &quot;Rich&quot;,&#10;  &quot;email&quot;: &quot;mnmr199@gmail.com&quot;,&#10;  &quot;username&quot;: &quot;mbmwq&quot;,&#10;  &quot;birthDate&quot;: &quot;2026-09-09&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="18" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;message&quot;:&quot;could not execute statement [ERROR: duplicate key value violates unique constraint \&quot;uk6dotkott2kjsp8vw4d0m25fb7\&quot;\n  Detail: Key (email)=(mnmr199@gmail.com) already exists.] [insert into users (birth_date,created_time,email,first_name,last_name,last_seen,last_updated_time,username) values (?,?,?,?,?,?,?,?)]; SQL [insert into users (birth_date,created_time,email,first_name,last_name,last_seen,last_updated_time,username) values (?,?,?,?,?,?,?,?)]; constraint [uk6dotkott2kjsp8vw4d0m25fb7]&quot;,&quot;time&quot;:&quot;2026-09-09T16:17:27.7205785&quot;}" />
+              <option name="time" value="2026-09-09 16:17:27" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="19">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Mike&quot;,&#10;  &quot;lastName&quot;: &quot;Rich&quot;,&#10;  &quot;email&quot;: &quot;mnmr199@gmail.com&quot;,&#10;  &quot;username&quot;: &quot;mbmwq&quot;,&#10;  &quot;birthDate&quot;: &quot;2026-09-09&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="19" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;message&quot;:&quot;could not execute statement [ERROR: duplicate key value violates unique constraint \&quot;uk6dotkott2kjsp8vw4d0m25fb7\&quot;\n  Detail: Key (email)=(mnmr199@gmail.com) already exists.] [insert into users (birth_date,created_time,email,first_name,last_name,last_seen,last_updated_time,username) values (?,?,?,?,?,?,?,?)]; SQL [insert into users (birth_date,created_time,email,first_name,last_name,last_seen,last_updated_time,username) values (?,?,?,?,?,?,?,?)]; constraint [uk6dotkott2kjsp8vw4d0m25fb7]&quot;,&quot;time&quot;:&quot;2026-09-09T16:17:55.84495&quot;}" />
+              <option name="time" value="2026-09-09 16:17:55" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="20">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Mike&quot;,&#10;  &quot;lastName&quot;: &quot;Rich&quot;,&#10;  &quot;email&quot;: &quot;mnmr199@gmail.com&quot;,&#10;  &quot;username&quot;: &quot;mbmwq&quot;,&#10;  &quot;birthDate&quot;: &quot;2026-09-09&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="20" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 09 16:19:20 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-09 16:19:20" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="21">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Mike&quot;,&#10;  &quot;lastName&quot;: &quot;Rich&quot;,&#10;  &quot;email&quot;: &quot;mnmr199@gmail.com&quot;,&#10;  &quot;username&quot;: &quot;mbmwq&quot;,&#10;  &quot;birthDate&quot;: &quot;2026-09-09&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="21" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;message&quot;:&quot;could not execute statement [ERROR: duplicate key value violates unique constraint \&quot;uk6dotkott2kjsp8vw4d0m25fb7\&quot;\n  Detail: Key (email)=(mnmr199@gmail.com) already exists.] [insert into users (birth_date,created_time,email,first_name,last_name,last_seen,last_updated_time,username) values (?,?,?,?,?,?,?,?)]; SQL [insert into users (birth_date,created_time,email,first_name,last_name,last_seen,last_updated_time,username) values (?,?,?,?,?,?,?,?)]; constraint [uk6dotkott2kjsp8vw4d0m25fb7]&quot;,&quot;time&quot;:&quot;2026-09-09T16:22:02.49984&quot;}" />
+              <option name="time" value="2026-09-09 16:22:02" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="22">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;firstName&quot;: &quot;Mike&quot;,&#10;  &quot;lastName&quot;: &quot;Rich&quot;,&#10;  &quot;email&quot;: &quot;mnmr199@gmail.com&quot;,&#10;  &quot;username&quot;: &quot;mbmwq&quot;,&#10;  &quot;birthDate&quot;: &quot;2026-09-09&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="22" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;status&quot;:&quot;404 NOT_FOUND&quot;,&quot;message&quot;:&quot;could not execute statement [ERROR: duplicate key value violates unique constraint \&quot;uk6dotkott2kjsp8vw4d0m25fb7\&quot;\n  Detail: Key (email)=(mnmr199@gmail.com) already exists.] [insert into users (birth_date,created_time,email,first_name,last_name,last_seen,last_updated_time,username) values (?,?,?,?,?,?,?,?)]; SQL [insert into users (birth_date,created_time,email,first_name,last_name,last_seen,last_updated_time,username) values (?,?,?,?,?,?,?,?)]; constraint [uk6dotkott2kjsp8vw4d0m25fb7]&quot;,&quot;timestamp&quot;:&quot;2026-09-10T13:24:11.0431089&quot;,&quot;path&quot;:&quot;uri=/api/v1/users&quot;,&quot;validationErrors&quot;:null}" />
+              <option name="time" value="2026-09-10 13:24:12" />
+              <option name="uri" value="/api/v1/users" />
+            </ReqHistory>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
