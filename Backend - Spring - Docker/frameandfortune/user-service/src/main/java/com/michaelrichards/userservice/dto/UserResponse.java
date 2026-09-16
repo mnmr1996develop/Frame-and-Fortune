@@ -14,6 +14,7 @@ public record UserResponse(
         String username,
         LocalDate birthDate,
         LocalDateTime lastSeen,
-        Boolean isOnline
+        Boolean isOnline,
+        Boolean isUserPrivate
 ) {
 }

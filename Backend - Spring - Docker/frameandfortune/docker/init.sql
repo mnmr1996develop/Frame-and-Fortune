@@ -1,2 +1,4 @@
 CREATE DATABASE IF NOT EXISTS frame_and_fortune;
-USE home_energy_tracker;
+USE frame_and_fortune;
+
+CREATE DATABASE IF NOT EXISTS frame_and_fortune_followers;

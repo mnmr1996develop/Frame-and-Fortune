@@ -1,5 +1,6 @@
 package com.michaelrichards.userservice.controller;
 
+import com.michaelrichards.userservice.dto.ExistsResponse;
 import com.michaelrichards.userservice.dto.UserRequest;
 import com.michaelrichards.userservice.dto.UserResponse;
 import com.michaelrichards.userservice.service.UserService;
@@ -8,7 +9,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequiredArgsConstructor
@@ -56,6 +59,20 @@ public class UserController {
         return ResponseEntity.ok().body(
                 service.updateUserById(userId, userRequest)
         );
+    }
+
+    @PatchMapping("/{userId}/lastSeen")
+    public ResponseEntity<LocalDateTime> updateLastSeenById(@PathVariable("userId") Long userId){
+        return ResponseEntity.ok().body(service.updateLastSeen(userId));
+    }
+
+    @GetMapping("/{userId}/exists")
+    public ResponseEntity<ExistsResponse> getAllUsersByUserId(
+            @PathVariable("userId") Long userId
+    ){
+        ExistsResponse response = ExistsResponse.builder()
+                .exists(service.existsById(userId)).build();
+       return ResponseEntity.ok().body(response);
     }
 
 

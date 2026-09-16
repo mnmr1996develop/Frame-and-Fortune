@@ -60,6 +60,10 @@ public class UserService {
         return UserMapper.toUserResponse(updatedUser);
     }
 
+    public boolean existsById(Long userId){
+        return userRepository.existsById(userId);
+    }
+
 
     private User saveUser(UserRequest userRequest, boolean userExists) {
         User user = User.builder()
@@ -67,6 +71,7 @@ public class UserService {
                 .lastName(userRequest.lastName())
                 .birthDate(userRequest.birthDate())
                 .lastSeen(LocalDateTime.now())
+                .isUserPrivate(userRequest.isUserPrivate())
                 .lastUpdatedTime(LocalDateTime.now())
                 .build();
 
@@ -91,6 +96,14 @@ public class UserService {
     }
 
     private void checkIfCorrectAge(LocalDate birthday){
+        if(LocalDate.now().isAfter(birthday)){
+            throw new IllegalArgumentException("Invalid birthday");
+        }
+    }
 
+    public LocalDateTime updateLastSeen(Long userId) {
+        User user = findUserById(userId);
+        user.setLastSeen(LocalDateTime.now());
+        return userRepository.save(user).getLastSeen();
     }
 }

@@ -18,6 +18,7 @@ public class UserMapper {
                 .birthDate(user.getBirthDate())
                 .lastSeen(user.getLastSeen())
                 .isOnline(user.getIsOnline())
+                .isUserPrivate(user.getIsUserPrivate())
                 .build();
     }
 

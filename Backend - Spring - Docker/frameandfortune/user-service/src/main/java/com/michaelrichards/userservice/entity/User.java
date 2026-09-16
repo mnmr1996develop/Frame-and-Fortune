@@ -46,6 +46,9 @@ public class User {
     @Column(nullable = false)
     private LocalDateTime lastUpdatedTime;
 
+    @Column(nullable = false)
+    private Boolean isUserPrivate;
+
 
     @Transient
     public Boolean getIsOnline(){

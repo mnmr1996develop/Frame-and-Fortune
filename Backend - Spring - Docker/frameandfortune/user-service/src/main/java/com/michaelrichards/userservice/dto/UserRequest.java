@@ -8,6 +8,7 @@ public record UserRequest(
         String lastName,
         String email,
         String username,
-        LocalDate birthDate
+        LocalDate birthDate,
+        Boolean isUserPrivate
 ) {
 }
