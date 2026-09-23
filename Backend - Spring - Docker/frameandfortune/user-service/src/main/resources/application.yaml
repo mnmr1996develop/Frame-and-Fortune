@@ -19,8 +19,11 @@ spring:
 
 
 server:
-  port: 8080
+  port: 8082
 
+services:
+  follow:
+    baseurl: http://FOLLOW-SERVICE/api/v1/follow
 
 eureka:
   client:

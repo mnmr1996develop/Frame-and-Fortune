@@ -1,6 +1,7 @@
 package com.michaelrichards.followservice.client;
 
 import com.michaelrichards.followservice.dto.ExistsResponse;
+import com.michaelrichards.followservice.dto.UserResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
@@ -10,6 +11,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.RestClient;
 import org.springframework.web.util.UriComponentsBuilder;
+
+import java.util.List;
 
 @Slf4j
 @Service
@@ -66,5 +69,27 @@ public class UserClient {
                .body(new ParameterizedTypeReference<>() {
                });
    }
+
+
+    public UserResponse getUserById(Long id) {
+
+        log.info(baseUrl);
+
+        String url = UriComponentsBuilder.fromUriString(baseUrl)
+                .path("/{id}")
+                .buildAndExpand(id)
+                .toUriString();
+
+        try {
+            return restClient.get()
+                    .uri(url)
+                    .retrieve()
+                    .body(new ParameterizedTypeReference<>() {
+                    });
+        } catch (Exception e) {
+            log.error(e.getMessage());
+            throw new RuntimeException(e.getMessage());
+        }
+    }
 
 }

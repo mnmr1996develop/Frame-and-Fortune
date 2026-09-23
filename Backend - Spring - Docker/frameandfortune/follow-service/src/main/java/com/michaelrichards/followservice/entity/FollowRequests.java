@@ -5,9 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.annotation.CreatedDate;
-
-import java.time.LocalDateTime;
 
 @Entity
 @Getter
@@ -15,19 +12,10 @@ import java.time.LocalDateTime;
 @Table(uniqueConstraints = {@UniqueConstraint(columnNames =  {"follower_id", "follower_id"})})
 @NoArgsConstructor
 @AllArgsConstructor
-public class FollowRequests {
+public class FollowRequests extends FollowInterface{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "follower_id", nullable = false, updatable = false)
-    private Long followerId;
-
-    @Column(name = "following_id", nullable = false,  updatable = false)
-    private Long followingId;
-
-    @CreatedDate
-    @Column(updatable = false)
-    private LocalDateTime createdTimestamp;
 }

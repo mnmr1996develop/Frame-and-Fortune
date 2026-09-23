@@ -6,7 +6,7 @@ import java.util.List;
 
 @Builder
 public record FollowResponse(
-        List<UserResponse>users,
+        List<UserIdResponse>users,
         long totalFollowers,
         long totalFollowing) {
 

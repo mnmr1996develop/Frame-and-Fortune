@@ -9,6 +9,7 @@ public record FollowRelationResponse(
         Long id,
         Long followerId,
         Long followingId,
+        boolean nowFollowing,
         boolean isFollowingBack,
         LocalDateTime createdDateTime
 ) {

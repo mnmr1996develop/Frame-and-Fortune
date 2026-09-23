@@ -75,6 +75,14 @@ public class UserController {
        return ResponseEntity.ok().body(response);
     }
 
+    @PatchMapping
+    public ResponseEntity<UserResponse> toggleFollowing(
+            @RequestParam Long userId
+    ){
+        HttpStatus status = HttpStatus.ACCEPTED;
+        return ResponseEntity.status(status).body(service.togglePrivacy(userId));
+    }
+
 
 
 

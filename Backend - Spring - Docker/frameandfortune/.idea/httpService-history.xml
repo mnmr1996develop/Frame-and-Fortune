@@ -14,16 +14,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}/like" />
               <option name="id" value="0" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="02" />
                 </map>
               </option>
-              <option name="res" value="[]" />
-              <option name="time" value="2026-09-16 13:58:04" />
+              <option name="res" value="" />
+              <option name="time" value="2026-09-23 12:51:20" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -39,16 +39,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}/like" />
               <option name="id" value="1" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="02" />
                 </map>
               </option>
-              <option name="res" value="[]" />
-              <option name="time" value="2026-09-16 13:58:36" />
+              <option name="res" value="Post with id 2 is liked" />
+              <option name="time" value="2026-09-23 12:51:26" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -64,16 +64,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}/like" />
               <option name="id" value="2" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="02" />
+                  <entry key="postId" value="02" />
                 </map>
               </option>
-              <option name="res" value="[]" />
-              <option name="time" value="2026-09-16 13:58:44" />
+              <option name="res" value="Post with id 2 is already liked by user 2" />
+              <option name="time" value="2026-09-23 12:53:33" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -89,17 +89,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8082" />
               <option name="id" value="3" />
-              <option name="method" value="GET" />
+              <option name="method" value="DELETE" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="03" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;404 NOT_FOUND&quot;,&quot;message&quot;:&quot;404 Error Calling http://USER-SERVICE/api/v1/users/3/lastSeen&quot;,&quot;timestamp&quot;:&quot;2026-09-16T13:58:55.4553375&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/03/followers&quot;}" />
-              <option name="time" value="2026-09-16 13:58:55" />
-              <option name="uri" value="" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 23 12:53:48 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-23 12:53:48" />
+              <option name="uri" value="/api/v1/posts" />
             </ReqHistory>
           </value>
         </entry>
@@ -114,18 +114,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
               <option name="id" value="4" />
               <option name="method" value="DELETE" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 13:59:19 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 13:59:19" />
-              <option name="uri" value="/api/v1/follows/{userId}" />
+              <option name="res" value="Required URI template variable 'postId' for method parameter type Long is not present" />
+              <option name="time" value="2026-09-23 12:53:57" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -140,17 +139,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
               <option name="id" value="5" />
               <option name="method" value="DELETE" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;400 BAD_REQUEST&quot;,&quot;message&quot;:&quot;Follower: 1 and following: 2 does not exist&quot;,&quot;timestamp&quot;:&quot;2026-09-16T13:59:23.5366928&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/01&quot;}" />
-              <option name="time" value="2026-09-16 13:59:23" />
+              <option name="res" value="Required URI template variable 'postId' for method parameter type Long is not present" />
+              <option name="time" value="2026-09-23 12:54:04" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -166,17 +164,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
               <option name="id" value="6" />
-              <option name="method" value="POST" />
+              <option name="method" value="DELETE" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:1,&quot;followerId&quot;:2,&quot;followingId&quot;:1,&quot;isFollowingBack&quot;:false,&quot;createdDateTime&quot;:&quot;2026-09-16T13:59:40.2651072&quot;}" />
-              <option name="time" value="2026-09-16 13:59:40" />
+              <option name="res" value="Required URI template variable 'postId' for method parameter type Long is not present" />
+              <option name="time" value="2026-09-23 12:54:45" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -192,17 +189,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
               <option name="id" value="7" />
               <option name="method" value="DELETE" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="1" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 13:59:47 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 13:59:47" />
+              <option name="res" value="Required URI template variable 'postId' for method parameter type Long is not present" />
+              <option name="time" value="2026-09-23 12:54:56" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -218,17 +214,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
               <option name="id" value="8" />
               <option name="method" value="DELETE" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="1L" />
                 </map>
               </option>
-              <option name="res" value="true" />
-              <option name="time" value="2026-09-16 14:01:08" />
+              <option name="res" value="Required URI template variable 'postId' for method parameter type Long is not present" />
+              <option name="time" value="2026-09-23 12:55:03" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -236,7 +231,7 @@
         <entry key="9">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -244,25 +239,24 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8082" />
               <option name="id" value="9" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:2,&quot;followerId&quot;:2,&quot;followingId&quot;:1,&quot;isFollowingBack&quot;:false,&quot;createdDateTime&quot;:&quot;2026-09-16T14:01:46.0848327&quot;}" />
-              <option name="time" value="2026-09-16 14:01:46" />
-              <option name="uri" value="" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 23 12:55:26 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-23 12:55:26" />
+              <option name="uri" value="/api/v1/posts/{postId}" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="10">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -270,17 +264,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}" />
               <option name="id" value="10" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;400 BAD_REQUEST&quot;,&quot;message&quot;:&quot;Follower: 1 is already following: 2&quot;,&quot;timestamp&quot;:&quot;2026-09-16T14:01:47.6683476&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/01&quot;}" />
-              <option name="time" value="2026-09-16 14:01:47" />
+              <option name="res" value="{&quot;postId&quot;:1,&quot;authorId&quot;:2,&quot;imageUrl&quot;:null,&quot;content&quot;:&quot;We lost hope&quot;,&quot;title&quot;:&quot;Sadness&quot;,&quot;likeCount&quot;:0,&quot;commentCount&quot;:0,&quot;likedByMe&quot;:false,&quot;createdAt&quot;:&quot;2026-09-23T12:47:33.275924Z&quot;}" />
+              <option name="time" value="2026-09-23 12:55:32" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -288,7 +281,7 @@
         <entry key="11">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -296,17 +289,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}" />
               <option name="id" value="11" />
-              <option name="method" value="DELETE" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="02" />
                 </map>
               </option>
-              <option name="res" value="true" />
-              <option name="time" value="2026-09-16 14:01:52" />
+              <option name="res" value="{&quot;postId&quot;:2,&quot;authorId&quot;:2,&quot;imageUrl&quot;:null,&quot;content&quot;:&quot;We lost hope&quot;,&quot;title&quot;:&quot;Sadness&quot;,&quot;likeCount&quot;:1,&quot;commentCount&quot;:0,&quot;likedByMe&quot;:true,&quot;createdAt&quot;:&quot;2026-09-23T16:50:38.316005Z&quot;}" />
+              <option name="time" value="2026-09-23 12:55:39" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -314,7 +306,7 @@
         <entry key="12">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -322,17 +314,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}" />
               <option name="id" value="12" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="012" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:3,&quot;followerId&quot;:2,&quot;followingId&quot;:1,&quot;isFollowingBack&quot;:false,&quot;createdDateTime&quot;:&quot;2026-09-16T14:02:00.4895848&quot;}" />
-              <option name="time" value="2026-09-16 14:02:00" />
+              <option name="res" value="404 Error Calling http://USER-SERVICE/api/v1/users/12/lastSeen" />
+              <option name="time" value="2026-09-23 12:55:48" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -340,7 +331,7 @@
         <entry key="13">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -348,17 +339,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}" />
               <option name="id" value="13" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="01" />
-                  <entry key="userId" value="02" />
+                  <entry key="postId" value="012" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:4,&quot;followerId&quot;:1,&quot;followingId&quot;:2,&quot;isFollowingBack&quot;:true,&quot;createdDateTime&quot;:&quot;2026-09-16T14:02:23.7541177&quot;}" />
-              <option name="time" value="2026-09-16 14:02:23" />
+              <option name="res" value="404 Error Calling http://USER-SERVICE/api/v1/users/12/lastSeen" />
+              <option name="time" value="2026-09-23 12:55:58" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -366,7 +356,7 @@
         <entry key="14">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -374,17 +364,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}" />
               <option name="id" value="14" />
-              <option name="method" value="DELETE" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="01" />
-                  <entry key="userId" value="02" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="true" />
-              <option name="time" value="2026-09-16 14:02:30" />
+              <option name="res" value="{&quot;postId&quot;:1,&quot;authorId&quot;:2,&quot;imageUrl&quot;:null,&quot;content&quot;:&quot;We lost hope&quot;,&quot;title&quot;:&quot;Sadness&quot;,&quot;likeCount&quot;:0,&quot;commentCount&quot;:0,&quot;likedByMe&quot;:false,&quot;createdAt&quot;:&quot;2026-09-23T12:47:33.275924Z&quot;}" />
+              <option name="time" value="2026-09-23 12:56:15" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -400,17 +389,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}" />
               <option name="id" value="15" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="012" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 14:08:12 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 14:08:12" />
-              <option name="uri" value="/api/v1/follows/{userId}/followers" />
+              <option name="res" value="404 Error Calling http://USER-SERVICE/api/v1/users/12/lastSeen" />
+              <option name="time" value="2026-09-23 12:56:20" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
@@ -425,16 +414,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}" />
               <option name="id" value="16" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="012" />
                 </map>
               </option>
-              <option name="res" value="[]" />
-              <option name="time" value="2026-09-16 14:08:25" />
+              <option name="res" value="Post with id 12 not found" />
+              <option name="time" value="2026-09-23 12:56:58" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -442,7 +431,7 @@
         <entry key="17">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -450,25 +439,26 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8082" />
               <option name="id" value="17" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="01" />
+                  <entry key="pageNumber" value="01" />
+                  <entry key="pageSize" value="014" />
                   <entry key="userId" value="02" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 14:08:35 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 14:08:35" />
-              <option name="uri" value="/api/v1/follows/{userId}" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 23 13:06:44 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-23 13:06:44" />
+              <option name="uri" value="/api/v1/posts/user/{userId}" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="18">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -476,17 +466,18 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/user/{userId}" />
               <option name="id" value="18" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="01" />
+                  <entry key="pageNumber" value="01" />
+                  <entry key="pageSize" value="014" />
                   <entry key="userId" value="02" />
                 </map>
               </option>
-              <option name="res" value="{&quot;id&quot;:5,&quot;followerId&quot;:1,&quot;followingId&quot;:2,&quot;isFollowingBack&quot;:true,&quot;createdDateTime&quot;:&quot;2026-09-16T14:08:39.1907516&quot;}" />
-              <option name="time" value="2026-09-16 14:08:39" />
+              <option name="res" value="[{&quot;postId&quot;:1,&quot;authorId&quot;:2,&quot;imageUrl&quot;:null,&quot;content&quot;:&quot;We lost hope&quot;,&quot;title&quot;:&quot;Sadness&quot;,&quot;likeCount&quot;:0,&quot;commentCount&quot;:0,&quot;likedByMe&quot;:false,&quot;createdAt&quot;:&quot;2026-09-23T12:47:33.275924Z&quot;},{&quot;postId&quot;:2,&quot;authorId&quot;:2,&quot;imageUrl&quot;:null,&quot;content&quot;:&quot;We lost hope&quot;,&quot;title&quot;:&quot;Sadness&quot;,&quot;likeCount&quot;:1,&quot;commentCount&quot;:0,&quot;likedByMe&quot;:true,&quot;createdAt&quot;:&quot;2026-09-23T16:50:38.316005Z&quot;}]" />
+              <option name="time" value="2026-09-23 13:06:51" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -502,16 +493,18 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/user/{userId}" />
               <option name="id" value="19" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="pageNumber" value="01" />
+                  <entry key="pageSize" value="014" />
+                  <entry key="userId" value="02" />
                 </map>
               </option>
-              <option name="res" value="[{&quot;userId&quot;:2}]" />
-              <option name="time" value="2026-09-16 14:08:50" />
+              <option name="res" value="[]" />
+              <option name="time" value="2026-09-23 13:09:09" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -519,24 +512,24 @@
         <entry key="20">
           <value>
             <ReqHistory>
-              <option name="body" value="" />
-              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="body" value="{&#10;  &quot;imageUrl&quot;: &quot;https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png&quot;,&#10;  &quot;title&quot;: &quot;Sadness&quot;,&#10;  &quot;content&quot;: &quot;So depressed&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
-              <option name="id" value="20" />
-              <option name="method" value="GET" />
-              <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="Content-Type" value="application/json" />
                 </map>
               </option>
-              <option name="res" value="[{&quot;userId&quot;:2}]" />
-              <option name="time" value="2026-09-16 14:27:48" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
+              <option name="id" value="20" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;postId&quot;:1,&quot;authorId&quot;:2,&quot;imageUrl&quot;:null,&quot;content&quot;:&quot;So depressed&quot;,&quot;title&quot;:&quot;Sadness&quot;,&quot;likeCount&quot;:0,&quot;commentCount&quot;:0,&quot;likedByMe&quot;:false,&quot;createdAt&quot;:&quot;2026-09-23T17:10:00.845151600Z&quot;}" />
+              <option name="time" value="2026-09-23 13:10:01" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -552,17 +545,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8082" />
               <option name="id" value="21" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 14:28:32 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 14:28:32" />
-              <option name="uri" value="/api/v1/follows/{userId}/following" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 23 13:10:19 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-23 13:10:19" />
+              <option name="uri" value="/api/v1/posts/{postId}/like" />
             </ReqHistory>
           </value>
         </entry>
@@ -577,16 +570,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/following" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}/like" />
               <option name="id" value="22" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="[{&quot;userId&quot;:2}]" />
-              <option name="time" value="2026-09-16 14:28:36" />
+              <option name="res" value="" />
+              <option name="time" value="2026-09-23 13:10:24" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -602,16 +595,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/following" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts/{postId}/like" />
               <option name="id" value="23" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="02" />
+                  <entry key="postId" value="01" />
                 </map>
               </option>
-              <option name="res" value="[{&quot;userId&quot;:1}]" />
-              <option name="time" value="2026-09-16 14:28:59" />
+              <option name="res" value="Post with id 1 is already liked by user 2" />
+              <option name="time" value="2026-09-23 13:10:26" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -623,9 +616,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
               <option name="id" value="24" />
@@ -650,9 +640,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="25" />
               <option name="method" value="GET" />
@@ -674,9 +661,6 @@
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
-              </option>
-              <option name="headers">
-                <map />
               </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
               <option name="id" value="26" />
@@ -700,9 +684,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
               <option name="id" value="27" />
               <option name="method" value="POST" />
@@ -721,24 +702,22 @@
         <entry key="28">
           <value>
             <ReqHistory>
-              <option name="body" value="" />
+              <option name="body" value="followingId=0&amp;userId=0" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/following" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
               <option name="id" value="28" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="params">
                 <map>
+                  <entry key="followingId" value="01" />
                   <entry key="userId" value="02" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;500 INTERNAL_SERVER_ERROR&quot;,&quot;message&quot;:&quot;No instances available for USER-SERVICE&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:43:39.4670344&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/02/following&quot;}" />
-              <option name="time" value="2026-09-16 12:43:39" />
+              <option name="res" value="{&quot;status&quot;:&quot;400 BAD_REQUEST&quot;,&quot;message&quot;:&quot;Follower: 2 is already following: 1&quot;,&quot;timestamp&quot;:&quot;2026-09-16T14:40:29.6217411&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/02&quot;}" />
+              <option name="time" value="2026-09-16 14:40:29" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -751,19 +730,16 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/following" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
               <option name="id" value="29" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="02" />
+                  <entry key="userId" value="01" />
                 </map>
               </option>
-              <option name="res" value="[{&quot;userId&quot;:1,&quot;firstName&quot;:&quot;dskl&quot;,&quot;lastName&quot;:&quot;sdd&quot;,&quot;email&quot;:&quot;dsds@gmail.com&quot;,&quot;username&quot;:&quot;assas&quot;,&quot;birthDate&quot;:&quot;2000-09-15&quot;,&quot;lastSeen&quot;:&quot;2026-09-15T16:52:54.122239&quot;,&quot;isOnline&quot;:false,&quot;isUserPrivate&quot;:false}]" />
-              <option name="time" value="2026-09-16 12:44:08" />
+              <option name="res" value="{&quot;users&quot;:[{&quot;userId&quot;:2}],&quot;totalFollowers&quot;:1,&quot;totalFollowing&quot;:1}" />
+              <option name="time" value="2026-09-16 14:40:45" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -776,9 +752,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="30" />
               <option name="method" value="DELETE" />
@@ -788,8 +761,8 @@
                   <entry key="userId" value="02" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 12:44:31 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 12:44:31" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 14:41:13 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-16 14:41:13" />
               <option name="uri" value="/api/v1/follows/{userId}" />
             </ReqHistory>
           </value>
@@ -802,9 +775,6 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
               <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
               <option name="id" value="31" />
               <option name="method" value="DELETE" />
@@ -814,8 +784,8 @@
                   <entry key="userId" value="02" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;500 INTERNAL_SERVER_ERROR&quot;,&quot;message&quot;:&quot;No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:44:42.5320585&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/02&quot;}" />
-              <option name="time" value="2026-09-16 12:44:42" />
+              <option name="res" value="true" />
+              <option name="time" value="2026-09-16 14:41:18" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -828,21 +798,17 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080" />
               <option name="id" value="32" />
-              <option name="method" value="DELETE" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="01" />
-                  <entry key="userId" value="02" />
+                  <entry key="userId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;500 INTERNAL_SERVER_ERROR&quot;,&quot;message&quot;:&quot;No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:45:06.5517549&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/02&quot;}" />
-              <option name="time" value="2026-09-16 12:45:06" />
-              <option name="uri" value="" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 14:41:25 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-16 14:41:25" />
+              <option name="uri" value="/api/v1/follows/{userId}/following" />
             </ReqHistory>
           </value>
         </entry>
@@ -854,20 +820,16 @@
               <option name="fileNames">
                 <array />
               </option>
-              <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/following" />
               <option name="id" value="33" />
-              <option name="method" value="DELETE" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
                   <entry key="userId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;500 INTERNAL_SERVER_ERROR&quot;,&quot;message&quot;:&quot;Something went wrong&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:46:51.2070913&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/01&quot;}" />
-              <option name="time" value="2026-09-16 12:46:51" />
+              <option name="res" value="{&quot;users&quot;:[{&quot;userId&quot;:2}],&quot;totalFollowers&quot;:0,&quot;totalFollowing&quot;:1}" />
+              <option name="time" value="2026-09-16 14:41:35" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -883,17 +845,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/users" />
               <option name="id" value="34" />
-              <option name="method" value="DELETE" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="pageNumber" value="0" />
+                  <entry key="pageSize" value="0" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;500 INTERNAL_SERVER_ERROR&quot;,&quot;message&quot;:&quot;Something went wrong&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:48:17.0906059&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/01&quot;}" />
-              <option name="time" value="2026-09-16 12:48:17" />
+              <option name="res" value="User service is down" />
+              <option name="time" value="2026-09-17 12:50:35" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -909,17 +871,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/users" />
               <option name="id" value="35" />
-              <option name="method" value="DELETE" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
+                  <entry key="pageNumber" value="0" />
+                  <entry key="pageSize" value="0" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;400 BAD_REQUEST&quot;,&quot;message&quot;:&quot;Follower: 1 and following: 2 does not exist&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:50:14.2667332&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/01&quot;}" />
-              <option name="time" value="2026-09-16 12:50:14" />
+              <option name="res" value="User service is down" />
+              <option name="time" value="2026-09-17 12:56:02" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -927,7 +889,7 @@
         <entry key="36">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -935,25 +897,25 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/users" />
               <option name="id" value="36" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="01" />
-                  <entry key="userId" value="02" />
+                  <entry key="pageNumber" value="0" />
+                  <entry key="pageSize" value="0" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 12:50:35 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 12:50:35" />
-              <option name="uri" value="/api/v1/follows/{userId}" />
+              <option name="res" value="User service is down" />
+              <option name="time" value="2026-09-17 12:57:44" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="37">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -961,17 +923,17 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/users" />
               <option name="id" value="37" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="followingId" value="01" />
-                  <entry key="userId" value="02" />
+                  <entry key="pageNumber" value="0" />
+                  <entry key="pageSize" value="0" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;400 BAD_REQUEST&quot;,&quot;message&quot;:&quot;Follower: 2 is already following: 1&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:50:58.0603057&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/02&quot;}" />
-              <option name="time" value="2026-09-16 12:50:58" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu Sep 17 12:58:13 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-17 12:58:13" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -979,7 +941,7 @@
         <entry key="38">
           <value>
             <ReqHistory>
-              <option name="body" value="followingId=0&amp;userId=0" />
+              <option name="body" value="" />
               <option name="contentType" value="application/x-www-form-urlencoded" />
               <option name="fileNames">
                 <array />
@@ -987,17 +949,14 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/users" />
               <option name="id" value="38" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="params">
-                <map>
-                  <entry key="followingId" value="02" />
-                  <entry key="userId" value="01" />
-                </map>
+                <map />
               </option>
-              <option name="res" value="{&quot;id&quot;:2,&quot;follower&quot;:{&quot;userId&quot;:1,&quot;firstName&quot;:&quot;dskl&quot;,&quot;lastName&quot;:&quot;sdd&quot;,&quot;email&quot;:&quot;dsds@gmail.com&quot;,&quot;username&quot;:&quot;assas&quot;,&quot;birthDate&quot;:&quot;2000-09-15&quot;,&quot;lastSeen&quot;:&quot;2026-09-15T16:52:54.122239&quot;,&quot;isOnline&quot;:false,&quot;isUserPrivate&quot;:false},&quot;following&quot;:{&quot;userId&quot;:2,&quot;firstName&quot;:&quot;dsadsa&quot;,&quot;lastName&quot;:&quot;dswad&quot;,&quot;email&quot;:&quot;sad@jcdsk.com&quot;,&quot;username&quot;:&quot;saas&quot;,&quot;birthDate&quot;:&quot;1997-09-15&quot;,&quot;lastSeen&quot;:&quot;2026-09-16T12:44:07.645923&quot;,&quot;isOnline&quot;:true,&quot;isUserPrivate&quot;:true},&quot;isFollowingBack&quot;:true,&quot;createdDateTime&quot;:&quot;2026-09-16T12:51:31.6560838&quot;}" />
-              <option name="time" value="2026-09-16 12:51:31" />
+              <option name="res" value="[{&quot;userId&quot;:2,&quot;firstName&quot;:&quot;dsadsa&quot;,&quot;lastName&quot;:&quot;dswad&quot;,&quot;email&quot;:&quot;sad@jcdsk.com&quot;,&quot;username&quot;:&quot;saas&quot;,&quot;birthDate&quot;:&quot;1997-09-15&quot;,&quot;lastSeen&quot;:&quot;2026-09-16T14:28:58.932424&quot;,&quot;isOnline&quot;:false,&quot;isUserPrivate&quot;:true},{&quot;userId&quot;:1,&quot;firstName&quot;:&quot;dskl&quot;,&quot;lastName&quot;:&quot;sdd&quot;,&quot;email&quot;:&quot;dsds@gmail.com&quot;,&quot;username&quot;:&quot;assas&quot;,&quot;birthDate&quot;:&quot;2000-09-15&quot;,&quot;lastSeen&quot;:&quot;2026-09-16T15:03:48.987183&quot;,&quot;isOnline&quot;:false,&quot;isUserPrivate&quot;:false}]" />
+              <option name="time" value="2026-09-17 12:58:50" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1013,16 +972,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/follows/{userId}/followers" />
               <option name="id" value="39" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="0" />
+                  <entry key="userId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;500 INTERNAL_SERVER_ERROR&quot;,&quot;message&quot;:&quot;404 : \&quot;{\&quot;status\&quot;:\&quot;404 NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;User with id:0 not found\&quot;,\&quot;timestamp\&quot;:\&quot;2026-09-16T12:57:20.9978891\&quot;,\&quot;path\&quot;:\&quot;uri=/api/v1/users/0/lastSeen\&quot;}\&quot;&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:57:21.0166363&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/0/followers&quot;}" />
-              <option name="time" value="2026-09-16 12:57:21" />
+              <option name="res" value="Follow service is down" />
+              <option name="time" value="2026-09-17 13:01:09" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1038,7 +997,7 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/follows/{userId}/followers" />
               <option name="id" value="40" />
               <option name="method" value="GET" />
               <option name="params">
@@ -1046,8 +1005,8 @@
                   <entry key="userId" value="01" />
                 </map>
               </option>
-              <option name="res" value="[{&quot;userId&quot;:2,&quot;firstName&quot;:&quot;dsadsa&quot;,&quot;lastName&quot;:&quot;dswad&quot;,&quot;email&quot;:&quot;sad@jcdsk.com&quot;,&quot;username&quot;:&quot;saas&quot;,&quot;birthDate&quot;:&quot;1997-09-15&quot;,&quot;lastSeen&quot;:&quot;2026-09-16T12:52:42.726344&quot;,&quot;isOnline&quot;:true,&quot;isUserPrivate&quot;:true}]" />
-              <option name="time" value="2026-09-16 12:57:42" />
+              <option name="res" value="Follow service is down" />
+              <option name="time" value="2026-09-17 13:01:32" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1063,16 +1022,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/follows/{userId}/followers" />
               <option name="id" value="41" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="0" />
+                  <entry key="userId" value="01" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;500 INTERNAL_SERVER_ERROR&quot;,&quot;message&quot;:&quot;404 : \&quot;{\&quot;status\&quot;:\&quot;404 NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;User with id:0 not found\&quot;,\&quot;timestamp\&quot;:\&quot;2026-09-16T12:57:49.8395359\&quot;,\&quot;path\&quot;:\&quot;uri=/api/v1/users/0/lastSeen\&quot;}\&quot;&quot;,&quot;timestamp&quot;:&quot;2026-09-16T12:57:49.84225&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/0/followers&quot;}" />
-              <option name="time" value="2026-09-16 12:57:49" />
+              <option name="res" value="{&quot;users&quot;:[{&quot;userId&quot;:2}],&quot;totalFollowers&quot;:1,&quot;totalFollowing&quot;:0}" />
+              <option name="time" value="2026-09-17 13:17:40" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1088,16 +1047,16 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/follows/{userId}/followers" />
               <option name="id" value="42" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="0" />
+                  <entry key="userId" value="01" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 12:58:43 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 12:58:44" />
+              <option name="res" value="{&quot;users&quot;:[{&quot;userId&quot;:2}],&quot;totalFollowers&quot;:1,&quot;totalFollowing&quot;:0}" />
+              <option name="time" value="2026-09-17 14:26:05" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1113,66 +1072,67 @@
               <option name="headers">
                 <map />
               </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8082" />
               <option name="id" value="43" />
               <option name="method" value="GET" />
               <option name="params">
                 <map>
-                  <entry key="userId" value="0" />
+                  <entry key="followerId" value="01" />
+                  <entry key="userId" value="02" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;404 NOT_FOUND&quot;,&quot;message&quot;:&quot;404 : \&quot;{\&quot;status\&quot;:\&quot;404 NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;User with id:0 not found\&quot;,\&quot;timestamp\&quot;:\&quot;2026-09-16T13:03:38.8617051\&quot;,\&quot;path\&quot;:\&quot;uri=/api/v1/users/0/lastSeen\&quot;}\&quot;&quot;,&quot;timestamp&quot;:&quot;2026-09-16T13:03:38.8874227&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/0/followers&quot;}" />
-              <option name="time" value="2026-09-16 13:03:39" />
-              <option name="uri" value="" />
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu Sep 17 14:32:26 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-17 14:32:26" />
+              <option name="uri" value="/api/v1/follows/{userId}/accept" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="44">
           <value>
             <ReqHistory>
-              <option name="body" value="" />
-              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="body" value="{&#10;  &quot;imageUrl&quot;: &quot;https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png&quot;,&#10;  &quot;title&quot;: &quot;Sadness&quot;,&#10;  &quot;content&quot;: &quot;We lost hope&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
-              <option name="id" value="44" />
-              <option name="method" value="GET" />
-              <option name="params">
                 <map>
-                  <entry key="userId" value="0" />
+                  <entry key="Content-Type" value="application/json" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 13:13:13 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 13:13:13" />
-              <option name="uri" value="" />
+              <option name="host" value="http://127.0.0.1:8082" />
+              <option name="id" value="44" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 23 12:42:53 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-23 12:42:53" />
+              <option name="uri" value="/api/v1/posts" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="45">
           <value>
             <ReqHistory>
-              <option name="body" value="" />
-              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="body" value="{&#10;  &quot;imageUrl&quot;: &quot;https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png&quot;,&#10;  &quot;title&quot;: &quot;Sadness&quot;,&#10;  &quot;content&quot;: &quot;We lost hope&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
-              <option name="id" value="45" />
-              <option name="method" value="GET" />
-              <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="Content-Type" value="application/json" />
                 </map>
               </option>
-              <option name="res" value="[{&quot;userId&quot;:2,&quot;firstName&quot;:&quot;dsadsa&quot;,&quot;lastName&quot;:&quot;dswad&quot;,&quot;email&quot;:&quot;sad@jcdsk.com&quot;,&quot;username&quot;:&quot;saas&quot;,&quot;birthDate&quot;:&quot;1997-09-15&quot;,&quot;lastSeen&quot;:&quot;2026-09-16T12:52:42.726344&quot;,&quot;isOnline&quot;:false,&quot;isUserPrivate&quot;:true}]" />
-              <option name="time" value="2026-09-16 13:13:48" />
+              <option name="host" value="http://127.0.0.1:8083/api/v1/posts" />
+              <option name="id" value="45" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="404 Error Calling http://USER-SERVICE/api/v1/user/2/lastSeen" />
+              <option name="time" value="2026-09-23 12:43:17" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1180,24 +1140,24 @@
         <entry key="46">
           <value>
             <ReqHistory>
-              <option name="body" value="" />
-              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="body" value="{&#10;  &quot;imageUrl&quot;: &quot;https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png&quot;,&#10;  &quot;title&quot;: &quot;Sadness&quot;,&#10;  &quot;content&quot;: &quot;We lost hope&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
-              <option name="id" value="46" />
-              <option name="method" value="GET" />
-              <option name="params">
                 <map>
-                  <entry key="userId" value="00" />
+                  <entry key="Content-Type" value="application/json" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 13:14:53 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 13:14:53" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
+              <option name="id" value="46" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 23 12:43:59 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2026-09-23 12:43:59" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1205,24 +1165,24 @@
         <entry key="47">
           <value>
             <ReqHistory>
-              <option name="body" value="" />
-              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="body" value="{&#10;  &quot;imageUrl&quot;: &quot;https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png&quot;,&#10;  &quot;title&quot;: &quot;Sadness&quot;,&#10;  &quot;content&quot;: &quot;We lost hope&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
-              <option name="id" value="47" />
-              <option name="method" value="GET" />
-              <option name="params">
                 <map>
-                  <entry key="userId" value="00" />
+                  <entry key="Content-Type" value="application/json" />
                 </map>
               </option>
-              <option name="res" value="{&quot;status&quot;:&quot;404 NOT_FOUND&quot;,&quot;message&quot;:&quot;404 Error Calling http://USER-SERVICE/api/v1/users/0/lastSeen&quot;,&quot;timestamp&quot;:&quot;2026-09-16T13:15:55.4220395&quot;,&quot;path&quot;:&quot;uri=/api/v1/follows/00/followers&quot;}" />
-              <option name="time" value="2026-09-16 13:15:55" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
+              <option name="id" value="47" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="404 Error Calling http://USER-SERVICE/api/v1/user/2/lastSeen" />
+              <option name="time" value="2026-09-23 12:46:23" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1230,49 +1190,49 @@
         <entry key="48">
           <value>
             <ReqHistory>
-              <option name="body" value="" />
-              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="body" value="{&#10;  &quot;imageUrl&quot;: &quot;https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png&quot;,&#10;  &quot;title&quot;: &quot;Sadness&quot;,&#10;  &quot;content&quot;: &quot;We lost hope&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8080" />
-              <option name="id" value="48" />
-              <option name="method" value="GET" />
-              <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="Content-Type" value="application/json" />
                 </map>
               </option>
-              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Wed Sep 16 13:55:57 EDT 2026&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Not Found, status=404).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
-              <option name="time" value="2026-09-16 13:55:57" />
-              <option name="uri" value="/api/v1/follows/{userId}/followers" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
+              <option name="id" value="48" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;postId&quot;:1,&quot;authorId&quot;:2,&quot;imageUrl&quot;:null,&quot;content&quot;:&quot;We lost hope&quot;,&quot;title&quot;:&quot;Sadness&quot;,&quot;likeCount&quot;:0,&quot;commentCount&quot;:0,&quot;likedByMe&quot;:false,&quot;createdAt&quot;:null}" />
+              <option name="time" value="2026-09-23 12:47:33" />
+              <option name="uri" value="" />
             </ReqHistory>
           </value>
         </entry>
         <entry key="49">
           <value>
             <ReqHistory>
-              <option name="body" value="" />
-              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="body" value="{&#10;  &quot;imageUrl&quot;: &quot;https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png&quot;,&#10;  &quot;title&quot;: &quot;Sadness&quot;,&#10;  &quot;content&quot;: &quot;We lost hope&quot;&#10;}" />
+              <option name="contentType" value="application/json" />
               <option name="fileNames">
                 <array />
               </option>
               <option name="headers">
-                <map />
-              </option>
-              <option name="host" value="http://127.0.0.1:8081/api/v1/follows/{userId}/followers" />
-              <option name="id" value="49" />
-              <option name="method" value="GET" />
-              <option name="params">
                 <map>
-                  <entry key="userId" value="01" />
+                  <entry key="Content-Type" value="application/json" />
                 </map>
               </option>
-              <option name="res" value="[{&quot;userId&quot;:2,&quot;firstName&quot;:&quot;dsadsa&quot;,&quot;lastName&quot;:&quot;dswad&quot;,&quot;email&quot;:&quot;sad@jcdsk.com&quot;,&quot;username&quot;:&quot;saas&quot;,&quot;birthDate&quot;:&quot;1997-09-15&quot;,&quot;lastSeen&quot;:&quot;2026-09-16T12:52:42.726344&quot;,&quot;isOnline&quot;:false,&quot;isUserPrivate&quot;:true}]" />
-              <option name="time" value="2026-09-16 13:56:03" />
+              <option name="host" value="http://127.0.0.1:8080/api/v1/posts" />
+              <option name="id" value="49" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;postId&quot;:2,&quot;authorId&quot;:2,&quot;imageUrl&quot;:null,&quot;content&quot;:&quot;We lost hope&quot;,&quot;title&quot;:&quot;Sadness&quot;,&quot;likeCount&quot;:0,&quot;commentCount&quot;:0,&quot;likedByMe&quot;:false,&quot;createdAt&quot;:&quot;2026-09-23T16:50:38.316004800Z&quot;}" />
+              <option name="time" value="2026-09-23 12:50:38" />
               <option name="uri" value="" />
             </ReqHistory>
           </value>
@@ -1281,8 +1241,8 @@
     </option>
     <option name="point">
       <AtomicInteger>
-        <option name="opaque" value="28" />
-        <option name="plain" value="28" />
+        <option name="opaque" value="24" />
+        <option name="plain" value="24" />
       </AtomicInteger>
     </option>
   </component>

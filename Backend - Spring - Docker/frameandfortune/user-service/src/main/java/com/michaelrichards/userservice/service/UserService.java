@@ -1,5 +1,6 @@
 package com.michaelrichards.userservice.service;
 
+import com.michaelrichards.userservice.client.FollowClient;
 import com.michaelrichards.userservice.dto.UserRequest;
 import com.michaelrichards.userservice.dto.UserResponse;
 import com.michaelrichards.userservice.entity.User;
@@ -22,6 +23,8 @@ import java.util.List;
 public class UserService {
 
     private final UserRepository userRepository;
+
+    private final FollowClient followClient;
 
     private User findUserById(Long userId){
         return userRepository.findById(userId).orElseThrow(()->new EntityNotFoundException("User with id:" + userId +" not found"));
@@ -105,5 +108,17 @@ public class UserService {
         User user = findUserById(userId);
         user.setLastSeen(LocalDateTime.now());
         return userRepository.save(user).getLastSeen();
+    }
+
+    public UserResponse togglePrivacy(Long userId) {
+        updateLastSeen(userId);
+        User user = findUserById(userId);
+
+        user.setIsUserPrivate(!user.getIsUserPrivate());
+
+        followClient.acceptAllFollowRequest(userId);
+
+        return UserMapper.toUserResponse(user);
+
     }
 }

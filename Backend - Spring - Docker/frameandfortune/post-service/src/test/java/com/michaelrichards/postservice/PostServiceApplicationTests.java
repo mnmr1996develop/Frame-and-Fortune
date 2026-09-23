@@ -1,10 +1,10 @@
-package com.michaelrichards.followservice;
+package com.michaelrichards.postservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FollowServiceApplicationTests {
+class PostServiceApplicationTests {
 
     @Test
     void contextLoads() {

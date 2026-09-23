@@ -9,7 +9,15 @@ import java.time.LocalDateTime;
 
 @Builder
 public record UserResponse (
-    Long userId
+    Long userId,
+    String firstName,
+    String lastName,
+    String email,
+    String username,
+    LocalDate birthDate,
+    LocalDateTime lastSeen,
+    Boolean isOnline,
+    Boolean isUserPrivate
 ){
 }
 

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.michaelrichards</groupId>
-    <artifactId>follow-service</artifactId>
+    <artifactId>followRelation-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>follow-service</name>
-    <description>follow-service</description>
+    <name>followRelation-service</name>
+    <description>followRelation-service</description>
     <url/>
     <licenses>
         <license/>
